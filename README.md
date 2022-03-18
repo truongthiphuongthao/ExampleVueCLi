@@ -1,24 +1,24 @@
 # vue-project
+### How to run project ?
+**Step 1:**
 
-## Project setup
+Run Vue cli
 ```
-npm install
+npm run serve 
 ```
+**Step 2:**
 
-### Compiles and hot-reloads for development
+Set up data by support of json-server. Installing json-server in project with run cmd command
 ```
-npm run serve
+npm install -g json-server
 ```
+Start json-server with data sample: product.json. Running command in project
+```
+json-server --watch data/product.json
+```
+**Step 3:**
 
-### Compiles and minifies for production
+Go to website with link url: 
 ```
-npm run build
+http://localhost:8080/
 ```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
